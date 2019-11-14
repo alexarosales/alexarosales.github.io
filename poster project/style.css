@@ -1,0 +1,188 @@
+.background {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 100vh;
+	background-image: url(nutcracker1.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+img {
+	position: absolute;
+	top: 0px;
+	left: 1180px;
+	width: 150px;
+	height: 150px;
+	margin: auto;
+
+}
+
+h1 {
+	position: absolute;
+	width: 100%;
+	color: rgb(197,213,228);
+	font-family: 'Abril Fatface', cursive;
+	font-size: 52px;
+	top: 0;
+	left: 90px;
+}
+
+h2 {
+	position: absolute;
+	top: 50px;
+	width: 100%;
+	color: rgb(197,213,228);
+	font-family: 'Abril Fatface', cursive;
+	font-size: 52px;
+	left: 135px;
+}
+
+h3 {
+	position: absolute;
+	left: 120px;
+	top: 160px;
+	color: rgb(255, 255, 255);
+	font-family: 'Raleway', sans-serif;
+	font-size: 25px;
+}
+
+h4 {
+	position: absolute;
+	left: 1030px;
+	top: 0px;
+	color: rgb(255,255,255);
+	font-family: 'Raleway', cursive;
+	font-size: 23px;
+}
+
+h5 {
+	position: absolute;
+	left: 1000px;
+	top: 34px;
+	color: rgb(197,213,228);
+	font-family: 'Raleway', cursive;
+	font-size: 18px;
+}
+
+h6 {
+	position: absolute;
+	left: 1005px;
+	top: 44px;
+	color: rgb(197,213,228);
+	font-family: 'Raleway', cursive;
+	font-size: 18px;
+}
+
+h7 {
+	position: absolute;
+	left: 144px;
+	top: 220px;
+	color: rgb(255,255,255);
+	font-family: 'Raleway', cursive;
+	font-size: 25px;
+}
+
+.tix {
+	position: absolute;
+	top: 260px;
+	left: 200px;
+	width: 100px;
+	height: 30px;
+	background-color: rgb(255,255,255);
+
+}
+
+h8 {
+	position: absolute;
+	left: 209px;
+	top: 266px;
+	color: rgb(0,0,0);
+	font-family: 'Raleway', cursive;
+	font-size: 16px;
+}
+
+@media (max-width: 860px) {
+	.background{
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		background-image: url("nutcracker2.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center center;
+	}
+	h1 {
+		position: absolute;
+		left: 50px;
+		top: 50px;
+		width: 100%;
+		font-size: 45px;
+	}
+	h2 {
+		position: absolute;
+		left: 92px;
+		top: 90px;
+		width: 100%;		
+		font-size: 45px;
+	}
+	h3 {
+		position: absolute;
+		top: 190px;
+		left: 35px;
+		width: 100%;
+	
+	}
+	h4 {
+		position: absolute;
+		top: 330px;
+		left: 203px;
+		width: 100%;
+		font-size: 15px;
+	}
+	h5 {
+		position: absolute;
+		top: 350px;
+		left: 186px;
+		width: 100%;
+		font-size: 13px;
+	}
+	h6 {
+		position: absolute;
+		top: 360px;
+		left: 187px;
+		width: 100%;
+		font-size: 13px;
+	}
+	h7 {
+		position: absolute;
+		top: 250px;
+		left: 140px;
+		width: 100%;
+	}
+	h8 {
+		position: absolute;
+		top: 305px;
+		left: 209px;
+		width: 100%;
+	}
+	img {
+	position: absolute;
+	top: 666px;
+	left: 0px;
+	width: 100px;
+	height: 100px;
+	margin: auto;
+
+}
+.tix {
+	position: absolute;
+	top: 300px;
+	left: 200px;
+}
+
+}
