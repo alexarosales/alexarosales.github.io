@@ -21,7 +21,19 @@ p {
 	color: rgb(255,255,255);
 	width: 400px;
 	height: 400px;
-	left: 600px;
-	line-height: 20px;
+	left: 530px;
+	top: 0px;
+	line-height: 28px;
+	font-size: 20px;
+	font-family: Futura;
+	text-align: left;
+}
+
+img {
+	position: absolute;
+	width: 500px;
+	height: 763px;
+	left: 0px;
+	top: 0px;
 }
 
