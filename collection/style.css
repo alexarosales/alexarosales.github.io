@@ -224,3 +224,23 @@ h3 {
 	left: 30px;
 }
 
+.also {
+	position: absolute;
+	top: 460px;
+	left: 630px;
+}
+
+.r {
+	position: absolute;
+	font-family: Futura;
+	color: white;
+	top: 430px;
+	left: 630px;
+}
+
+.y {
+	position: absolute;
+	top: 470px;
+	left: 630px;
+}
+
