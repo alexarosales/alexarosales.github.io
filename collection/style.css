@@ -3,16 +3,16 @@ h1{
 	font-family: Futura;
 	color: rgb(221,160,221);
 	top: 290px;
-	left: 460px;
+	left: 625px;
 }
 
 h3 {
 	position: absolute;
 	text-align: center;
-	font-family: 'Unica One', cursive;
+	font-family: Verdana;
 	color: rgb(216,191,216);
 	top: 340px;
-	left: 570px;
+	left: 512px;
 }
 
 .icon1 {
