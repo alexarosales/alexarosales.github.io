@@ -26,6 +26,7 @@ p {
 	color: white;
 	width: 450px;
 	font-size: 20px;
+	transition: background-color 0.25s ease-in-out;
 }	
 
 body {
