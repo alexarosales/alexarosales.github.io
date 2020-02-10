@@ -1,0 +1,70 @@
+.title {
+	position: absolute;
+	top: -49px;
+	left: 0px;
+	color: white;
+	font-weight: bold;
+	font-size: 72px;
+	font-family: 'Archivo Black', sans-serif;
+	line-height: 63px;
+}
+
+.gif {
+	position: absolute;
+	top: 190px;
+	width: 100vw;
+}
+
+.history1 {
+	position: absolute;
+	top: 457px;
+	left: 13px;
+	font-family: 'Playfair Display', serif;
+	color: white;
+	width: 350px;
+	font-size: 18px;
+	line-height: 30px;
+	text-align: center;
+}
+
+.oldtat1 {
+	position: absolute;
+	top: 1820px;
+	width: 100vw;
+}
+
+.history2 {
+	position: absolute;
+	top: 2036px;
+	left: 13px;
+	font-family: 'Playfair Display', serif;
+	color: white;
+	width: 350px;
+	font-size: 18px;
+	line-height: 30px;
+	text-align: center;
+}
+
+.oldtat3 {
+	position: absolute;
+	top: 3516px;
+	width: 100vw;
+}
+
+.home {
+	position: absolute;
+	top: 3773px;
+	left: 171px;
+	width: 40px;
+	height: 60px;
+}
+
+body {
+	max-width: 375px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+html {
+  background-color: black; 
+}
