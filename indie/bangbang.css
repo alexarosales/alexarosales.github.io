@@ -1,0 +1,165 @@
+
+ .image1 {
+	position: absolute;
+	top: 60px;
+	left: 0px;
+	width: 100vw;
+}	
+
+
+.bang {
+	position: absolute;
+	top: -95px;
+	left: -2px;
+	font-family: 'Archivo Black', sans-serif;
+	font-size: 59px;
+	color: white;
+	font-weight: bold;
+}
+
+.intro {
+	position: absolute;
+	top: 694px;
+	left: 13px;
+	font-family: 'Playfair Display', serif;
+	color: white;
+	width: 350px;
+	font-size: 18px;
+	line-height: 30px;
+	text-align: center;
+}
+
+.image2 {
+	position: absolute;
+	top: 1540px;
+	width: 100vw;
+}	
+
+.q1 {
+	position: absolute;
+	color: white;
+	font-family: 'Archivo Black', sans-serif;
+	top: 1796px;
+	left: 13px;
+	font-size: 16px;
+	text-align: center;
+}
+
+.a1 {
+	position: absolute;
+	top: 1921px;
+	left: 13px;
+	font-family: 'Playfair Display', serif;
+	color: white;
+	width: 350px;
+	font-size: 18px;
+	line-height: 30px;
+	text-align: center;
+}
+
+.q2 {
+	position: absolute;
+	color: white;
+	font-family: 'Archivo Black', sans-serif;
+	top: 2034px;
+	left: 3px;
+	font-size: 33px;
+	text-align: center;
+}
+
+.a2 {
+	position: absolute;
+	top: 2128px;
+	left: 13px;
+	font-family: 'Playfair Display', serif;
+	color: white;
+	width: 350px;
+	font-size: 18px;
+	line-height: 30px;
+	text-align: center;
+}
+
+.q3 {
+	position: absolute;
+	color: white;
+	font-family: 'Archivo Black', sans-serif;
+	top: 2418px;
+	left: 3px;
+	font-size: 33px;
+	text-align: center;
+}
+
+.a3 {
+	position: absolute;
+	top: 2516px;
+	left: 13px;
+	font-family: 'Playfair Display', serif;
+	color: white;
+	width: 350px;
+	font-size: 18px;
+	line-height: 30px;
+	text-align: center;
+}
+
+.q4 {
+	position: absolute;
+	color: white;
+	font-family: 'Archivo Black', sans-serif;
+	top: 2775px;
+	left: 3px;
+	font-size: 33px;
+	text-align: center;
+}
+
+.a4 {
+	position: absolute;
+	top: 2936px;
+	left: 13px;
+	font-family: 'Playfair Display', serif;
+	color: white;
+	width: 350px;
+	font-size: 18px;
+	line-height: 30px;
+	text-align: center;
+}
+
+.image3 {
+	position: absolute;
+	top: 3150px;
+	left: 163px;
+	width: 50px;
+	height: 50px;
+}
+
+.image4 {
+	position: absolute;
+	top: 3219px;
+}
+
+.image5 {
+	position: absolute;
+	top: 3283px;
+}
+
+.image6 {
+	position: absolute;
+	top: 3347px;
+}
+
+.home {
+	position: absolute;
+	top: 3447px;
+	left: 171px;
+	width: 40px;
+	height: 60px;
+}
+
+body {
+	max-width: 375px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+html {
+  background-color: black; 
+}

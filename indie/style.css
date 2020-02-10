@@ -1,33 +1,143 @@
-
-img {
+.image1 {
 	position: absolute;
-	top: 60px;
-	left: 0px;
-	width: 500px;
-	height: 900px;
+	top: 0px;
+	left: 15px;
+	width: 350px;
+	height: 550px;
 }	
 
-
-h1 {
+.n1 {
 	position: absolute;
-	top: -120px;
-	left: 0px;
+	color: rgb(8, 46, 208);
 	font-family: 'Archivo Black', sans-serif;
-	font-size: 155px;
-	color: white;
-	font-weight: bold;
+	top: 447px;
+	left: 84px;
+	font-size: 59px;
 }
 
-p {
+.y {
 	position: absolute;
-	top: 920px;
-	left: 20px;
-	font-family: 'Space Mono', monospace;
+	color: rgb(8, 46, 208);
+	font-family: 'Archivo Black', sans-serif;
+	top: 447px;
+	left: 190px;
+	font-size: 59px;
+}
+
+.c {
+	position: absolute;
+	color: rgb(8, 46, 208);
+	font-family: 'Archivo Black', sans-serif;
+	top: 447px;
+	left: 280px;
+	font-size: 59px;
+}
+
+.i {
+	position: absolute;
+	color: rgb(8, 46, 208);
+	font-family: 'Archivo Black', sans-serif;
+	top: 550px;
+	left: -1px;
+	font-size: 59px;
+}
+
+.n {
+	position: absolute;
+	color: rgb(8, 46, 208);
+	font-family: 'Archivo Black', sans-serif;
+	top: 550px;
+	left: 44px;
+	font-size: 59px;
+}
+
+.k{
+	position: absolute;
+	color: rgb(8, 46, 208);
+	font-family: 'Archivo Black', sans-serif;
+	top: 550px;
+	left: 267px;
+	font-size: 59px;
+}
+
+.box1{
+	position: absolute;
+	background-color: rgb(8, 46, 208);
+	width: 85px;
+	height: 85.3px;
+	top: 547px;
+	left: 7px;
+}
+
+.box2 {
+	position: absolute;
+	background-color: rgb(8, 46, 208);
+	width: 135px;
+	height: 85px;
+	top: 650px;
+	left: 124px;
+}
+
+.box3 {
+	position: absolute;
+	background-color: white;
+	width: 30px;
+	height: 2px;
+	top: 776px;
+	left: 162px;
+	transform: rotate(45deg);
+	opacity: 50%;
+	animation: blinker 1s step-start infinite;
+}
+
+.box4 {
+	position: absolute;
+	background-color: white;
+	width: 30px;
+	height: 2px;
+	top: 776px;
+	left: 183px;
+	transform: rotate(-45deg);
+	opacity: 50%;
+}
+
+.box5 {
+	position: absolute;
+	background-color: white;
+	width: 60px;
+	height: 2px;
+	top: 860px;
+	left: 158px;
+}
+
+.history {
+	position: absolute;
+	top: 791px;
+	left: 67px;
+	font-family: 'Bebas Neue', cursive;
 	color: white;
-	width: 450px;
-	font-size: 20px;
-	transition: background-color 0.25s ease-in-out;
-}	
+	font-stretch: 2px;
+}
+
+.image2 {
+	position: absolute;
+	top: 880px;
+}
+
+.image3 {
+	position: absolute;
+	top: 944px;
+}
+
+.image4 {
+	position: absolute;
+	top: 1008px;
+}
+
+.image5 {
+	position: absolute;
+	top: 1072px;
+}
 
 body {
 	max-width: 375px;
