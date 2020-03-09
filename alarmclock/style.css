@@ -1,0 +1,80 @@
+.bg {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+body {
+	max-width: 375px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.bunny {
+	position: absolute;
+	top: 0px;
+	left: 0px; 
+ 	background-image: url(bunny.png);
+  	background-size: contain;
+  	background-position: center center;
+  	background-repeat: no-repeat;
+  	animation-name: animationA;
+  	animation-duration: .6s;
+  	animation-timing-function: linear;
+  	animation-iteration-count: infinite;
+}
+
+.clouds {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	background-image: url(clouds.png);
+  	background-size: contain;
+  	background-position: center center;  
+  	background-repeat: no-repeat;  
+  	animation-name: animationB;
+  	animation-duration: 20s;
+  	animation-iteration-count: infinite;
+  	animation-timing-function: horizontal; 
+}
+
+.food {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	background-image: url(food.png);
+  	animation-name: animationC;
+  	animation-duration: 100s;
+  	animation-timing-function: linear;
+  	animation-iteration-count: infinite;
+}
+
+@keyframes animationA {
+  0% {
+    top: 0;
+  }
+  50% {
+  	top: -5vh;
+  }
+  100% {
+    top: 0;
+  }
+}
+
+@keyframes animationB {
+	0% {
+		left: -50vh;
+	}
+	100% {
+		left: 50vh;
+	}
+}
+
+@keyframes animationC {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(-360deg);
+  }
+}
